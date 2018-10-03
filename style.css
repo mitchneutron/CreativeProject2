@@ -1,6 +1,7 @@
 html,
 body {
   color: black;
+  background-color: #41B3A3;
   height: 100%;
 }
 
@@ -11,6 +12,11 @@ body {
 #results {
   width:80%;
   margin:auto;
+}
+
+#header{
+    background-color:#E27D60;
+    color:#85DCB;
 }
 
 .title {
@@ -24,4 +30,35 @@ body {
 a,a:hover {
   color:black;
   text-decoration: none;
+}
+
+form.searchbox input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.searchbox button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px #E27D60;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.searchbox button:hover {
+    background: #0b7dda;
+}
+
+form.searchbox::after {
+    content: "";
+    clear: both;
+    display: table;
 }
