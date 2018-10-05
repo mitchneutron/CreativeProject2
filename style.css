@@ -15,8 +15,12 @@ body {
 }
 
 #header{
-    background-color:#E27D60;
+    background-color: lightblue;
     color:#85DCB;
+}
+
+#body{
+  background-color: white;
 }
 
 .title {
